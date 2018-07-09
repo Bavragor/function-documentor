@@ -1,0 +1,26 @@
+{
+    "name": "bavragor/function-documentor",
+    "description": "Documentation generator for usages of functions",
+    "require": {
+        "php": ">=5.6",
+        "ext-tokenizer": "*",
+        "nikic/php-parser": "3.1.*",
+        "psr/log": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin Mauel",
+            "email": "kevin.mauel2+github@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Bavragor\\FunctionDocumentor\\": "src/"
+        }
+    },
+    "provide": {
+        "psr/log-implementation": "1.0.0"
+    }
+}
