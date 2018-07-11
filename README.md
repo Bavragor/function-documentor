@@ -6,6 +6,7 @@ Current function calls that will be detected:
 - ${class}::${function}
 
 Current exports:
+- TableExport: Not yet implemented
 - ArrayExport: Provides an array of detected function calls with their arguments
 
 Example (ArrayExport, no formatters):
